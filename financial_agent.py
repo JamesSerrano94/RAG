@@ -12,7 +12,7 @@ from phi.tools.duckduckgo import DuckDuckGo
 import openai
 import os
 from dotenv import load_dotenv
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "" #replace with your key
 load_dotenv()
 
 def save_pdf(text, filename="financial_report.pdf"):
