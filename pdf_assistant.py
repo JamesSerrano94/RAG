@@ -6,7 +6,7 @@ from phi.knowledge.pdf import PDFUrlKnowledgeBase
 from phi.vectordb.pgvector import PgVector2
 import os
 from dotenv import load_dotenv
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "" #replace with your key
 load_dotenv()
 from financial_agent import generate_report
 from reportlab.platypus import SimpleDocTemplate, Paragraph
